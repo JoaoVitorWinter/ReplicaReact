@@ -25,12 +25,13 @@ export default {
         "secundaria": "#FFF3E3",
       },
       backgroundColor: {
-        colors: {
-          "preto": "#333",
-          "primaria": "#B88E2F",
-          "secundaria": "#FFF3E3",
-        }
-      }
+        "preto": "#333",
+        "primaria": "#B88E2F",
+        "secundaria": "#FFF3E3",
+      },
+      lineHeight: {
+        "largo": "4rem",
+      },
     },
   },
   plugins: [],
