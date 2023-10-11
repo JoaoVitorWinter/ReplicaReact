@@ -16,6 +16,9 @@ export default {
       height: {
         '720': "45rem",
       },
+      width: {
+        "544": "34rem",
+      },
       letterSpacing: {
         "3": "0.2em",
       },
@@ -26,6 +29,7 @@ export default {
       },
       backgroundColor: {
         "preto": "#333",
+        "cinza": "#666",
         "primaria": "#B88E2F",
         "secundaria": "#FFF3E3",
       },
