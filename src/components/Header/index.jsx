@@ -3,12 +3,12 @@ import "./Header.css";
 export default function Header() {
 
     return (
-        <header className="flex justify-between items-center px-20 py-8 font-poppins text-base bg-white font-medium">
+        <header className="flex justify-between items-center px-5 md:px-20 py-8 font-poppins text-base bg-white font-medium">
             <div className="flex justify-center items-center g-1">
                 <img src="./images/logo.png" alt="Logo" />
-                <h1 className="text-4xl font-montserrat font-bold">Furniro</h1>
+                <h1 className="text-4xl font-montserrat font-bold hidden md:inline">Furniro</h1>
             </div>
-            <nav>
+            <nav className="hidden lg:inline">
                 <ul className="flex justify-center items-center gap-20">
                     <li>Home</li>
                     <li>Shop</li>
