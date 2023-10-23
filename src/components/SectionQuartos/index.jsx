@@ -11,7 +11,7 @@ export default function SectionQuartos() {
                     <p className="text-cinza font-medium">01 - Bed Room</p>
                     <h1 className="text-cinza-escuro text-3xl font-semibold">Inner Peace</h1>
                 </div>
-                <img className="bg-primaria border-8 border-primaria mb-10 hidden md:block" src="./images/setaAdiante.svg" alt="->" />
+                <img className="bg-primaria border-8 border-primaria mb-6 hidden md:block" src="./images/setaAdiante.svg" alt="->" />
             </div>
             <div className="flex flex-col gap-10 justify-start items-center md:items-start w-1/3">
                 <div className=" hidden md:flex md:items-center">
